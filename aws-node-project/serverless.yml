@@ -1,0 +1,14 @@
+org: mchill
+app: aws-node-project
+service: aws-node-project
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: eu-west-2
+
+functions:
+  hello:
+    handler: handler.hello
